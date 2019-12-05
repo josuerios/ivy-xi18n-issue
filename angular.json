@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ivy-i18n": {
@@ -8,6 +8,13 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "es": "src/locales/messages.es.xlf",
+          "fr": "src/locales/messages.fr.xlf"
         }
       },
       "root": "",
